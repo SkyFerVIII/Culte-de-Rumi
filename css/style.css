@@ -1,0 +1,52 @@
+/* Style de l'en-tête */
+header {
+    background-color: #D32F2F; 
+    color: #FFFFFF;  
+    padding: 20px;
+    text-align: center;
+    position: sticky; /* Reste en haut lors du scroll */
+    top: 0;
+    z-index: 1000; /* S'assurer que le header reste au-dessus du contenu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style pour le logo/titre */
+header .logo h1 {
+    font-family: 'Cinzel', serif;  /* Police élégante pour le logo/titre */
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: 2px;  /* Espacement entre les lettres pour un effet de style */
+    color: #FFFFFF;
+}
+
+/* Menu de navigation */
+nav ul {
+    list-style-type: none;  /* Suppression des puces de liste */
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;  /* Espace entre les liens du menu augmenté */
+}
+
+/* Liens de navigation */
+nav ul li a {
+    color: #B0BEC5;  /* Gris clair pour les liens */
+    text-decoration: none;  /* Suppression du soulignement */
+    font-weight: bold;
+    font-size: 1.2em; 
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;  /* Transition douce pour hover */
+    border-radius: 5px; /* Légère arrondie pour hover */
+}
+
+/* Effet au survol des liens */
+nav ul li a:hover {
+    color: #FFFFFF; 
+    background-color: #455A64;  /* Gris foncé au survol */
+}
+
+/* Ombre légère sous l'en-tête pour plus de profondeur */
+header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
