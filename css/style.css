@@ -1,13 +1,13 @@
 /* Style de l'en-tête */
 header {
-    background-color: #D32F2F; 
-    color: #FFFFFF;  
+    background-color: rgba(128, 0, 0, 0.95); /* Fond rouge légèrement transparent */
+    color: #FFFFFF;  /* Texte blanc pour contraste */
     padding: 20px;
     text-align: center;
     position: sticky; /* Reste en haut lors du scroll */
     top: 0;
     z-index: 1000; /* S'assurer que le header reste au-dessus du contenu */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère sous le header */
 }
 
 /* Style pour le logo/titre */
@@ -16,7 +16,6 @@ header .logo h1 {
     font-size: 2.5em;
     margin: 0;
     letter-spacing: 2px;  /* Espacement entre les lettres pour un effet de style */
-    color: #FFFFFF;
 }
 
 /* Menu de navigation */
@@ -25,16 +24,16 @@ nav ul {
     padding: 0;
     margin: 10px 0 0 0;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centrer le menu */
     gap: 30px;  /* Espace entre les liens du menu augmenté */
 }
 
 /* Liens de navigation */
 nav ul li a {
-    color: #B0BEC5;  /* Gris clair pour les liens */
+    color: #FFD700;  /* Couleur dorée pour les liens */
     text-decoration: none;  /* Suppression du soulignement */
     font-weight: bold;
-    font-size: 1.2em; 
+    font-size: 1.2em;  /* Taille de police légèrement augmentée */
     padding: 10px 15px;
     transition: color 0.3s ease, background-color 0.3s ease;  /* Transition douce pour hover */
     border-radius: 5px; /* Légère arrondie pour hover */
@@ -42,11 +41,6 @@ nav ul li a {
 
 /* Effet au survol des liens */
 nav ul li a:hover {
-    color: #FFFFFF; 
-    background-color: #455A64;  /* Gris foncé au survol */
-}
-
-/* Ombre légère sous l'en-tête pour plus de profondeur */
-header {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;  /* Texte devient blanc */
+    background-color: #4CAF50;  /* Fond vert vif au survol */
 }
