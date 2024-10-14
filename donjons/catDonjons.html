@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catégories de Donjons</title>
+    <!-- Inclusion de Bootstrap CSS depuis un CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white p-3">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Culte de Rumi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://skyferviii.codeberg.page/">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/donjons/catDonjons.html">Donjon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pvp/choixCatPvP.html">PvP</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenu principal -->
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Choisissez votre type de Donjon</h1>
+        <div class="row">
+            <!-- Carte pour Donjons Coop -->
+            <div class="col-md-6">
+                <div class="card coop-card shadow-box mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Donjons Coop</h5>
+                        <p class="card-text">Participez à des aventures épiques avec vos amis et surmontez les défis ensemble.</p>
+                        <a href="djCoop/choixNivDonj.html" class="btn btn-success">Explorer</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte pour Donjons Solo -->
+            <div class="col-md-6">
+                <div class="card solo-card shadow-box mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Donjons Solo</h5>
+                        <p class="card-text">Testez vos compétences et aventurez-vous seul dans des donjons périlleux.</p>
+                        <a href="#" class="btn btn-primary">Explorer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Culte de Rumi. Tous droits réservés.</p>
+    </footer>
+    
+    <!-- Inclusion de Bootstrap JS et jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
